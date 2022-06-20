@@ -618,7 +618,9 @@ a[data-lightbox]:hover img {
     z-index: 1;
     opacity: 0.4;
 }
-
+.margin{
+    margin-top: 30px;
+}
 .next-lightbox {
     padding: 6px 8px 1px 13px;
     right: 25px;
