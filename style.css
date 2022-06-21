@@ -858,6 +858,19 @@ h4 {
     color: #2b2b2b!important;
     font-size: 20px;
 }
+.box-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.titleModif{
+    font-size: 5em;
+}
+.title-descriptionModif{
+    
+    font-size: 1.8em;
+    
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -870,6 +883,16 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .titleModif{
+        font-size: 5em;
+        text-align: center;
+    }
+    .title-descriptionModif{
+        font-size: 2em;
+        text-align: center;
+        
+        
     }
 }
 
