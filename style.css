@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -38,6 +38,7 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+
 
 .bloc .container {
     padding-left: 0;
@@ -276,6 +277,9 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+}
+.row:focus{
+    border: 1px solid green;   
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -856,21 +860,60 @@ h4 {
 }
 .color-grey{
     color: #2b2b2b!important;
-    font-size: 20px;
+    font-size: 18px;
 }
 .box-title{
     display: flex;
     flex-direction: column;
     justify-content: center;    
 }
+
 .titleModif{
     font-size: 5em;
+}
+.titleModif:focus{
+    border: 1px solid green;   
 }
 .title-descriptionModif{
     
     font-size: 1.8em;
     
 }
+.nav-items{
+    padding: 0;
+    margin-right: 20px;
+    
+}
+.dropUpdate{
+    display: flex;
+    flex-direction: column;
+}
+.navUpdate{
+    margin: 0;
+    padding: 0 20px 0 0;
+    list-style-type: none;
+    
+}
+.navUpdate a{
+    text-decoration: none;
+}
+a:focus{
+    border: 1px solid red;
+}
+.textInfo{
+    font-size: 22px;
+}
+.temoignage{
+    color: #2b2b2b!important;
+    font-style: oblique;
+    font-size: 20px;
+}
+.temoignageTag{
+    font-style: normal;
+    font-size: 19px;
+    color: #5c5c5c!important;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
